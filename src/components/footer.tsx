@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ContactLink( {title, link} ) {
+function ContactLink( {title, link} : {title: string; link: string} ) {
 	return (
 		<div>
 			<a href={link}>

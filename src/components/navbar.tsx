@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-function NavItem({ href, title }) {
+function NavItem({ href, title } : {href: string; title: string}) {
 	return (
 		<Link href={href}className="bg-black text-white font-bold rounded-lg px-2 py-0 hover:bg-white hover:text-black cursor-pointer transition-colors">
 			{title}

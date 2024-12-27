@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-function PhotoItem({ path }) {
+function PhotoItem({ path }: { path: string }) {
 	return (
 	<div className="w-full relative aspect-[3/2]">
 	  <Image
