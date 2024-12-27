@@ -15,9 +15,9 @@ function PhotoItem({ path }: { path: string }) {
 
 export default function Photography() {
 	return (
-		<main>
+		<main className="space-y-4">
 			{/*Info Box*/}
-			<div className="m-4">
+			<div>
 				<p className="text-justify">
 					I do photography for events, but I also do it for fun. This is a collection of those moments. Everything SooC.
 				</p>

@@ -2,7 +2,7 @@ export default function Home() {
 	return (
 		<div>
 			<main>
-				<div className="m-4 block space-y-4">
+				<div className="block space-y-4">
 					<p className="text-justify">
 						A Mechanical Engineering student at the National University of Singapore, fully funded by the Beasiswa Indonesia Maju scholarship for my achievements in national physics competitions.
 					</p>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Atkinson_Hyperlegible } from 'next/font/google';
 import "./globals.css";
 
-import NavBar from '@/components/navbar';
+import Header from '@/components/header';
 import Footer from '@/components/footer';
 
 
@@ -20,8 +20,8 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
 	return (
 	<html lang="en">
 		<body className={`${atkinsonHyperlegible.className} m-0 p-0`}>
-			<NavBar />
-			<div className="pt-12 w-2/3 m-auto">
+			<Header />
+			<div className="pt-16 w-2/3 mx-auto">
 				{children}
 			</div>
 			<Footer />
