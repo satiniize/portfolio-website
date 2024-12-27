@@ -32,9 +32,9 @@ export default function Header() {
 			<h1 className="bg-black h-8 px-2 flex items-center">
 				Rayhan / satiniize
 			</h1>
-			<h1 className="bg-black h-8 px-2 flex items-center ml-auto">
+		{/*	<h1 className="bg-black h-8 px-2 flex items-center ml-auto">
 				Built with pride and passion,
-			</h1>
+			</h1>*/}
 		</div>
 
 		{/* Sidebar */}

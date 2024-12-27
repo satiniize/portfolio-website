@@ -21,7 +21,7 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
 	<html lang="en">
 		<body className={`${atkinsonHyperlegible.className} m-0 p-0`}>
 			<Header />
-			<div className="pt-16 w-2/3 mx-auto">
+			<div className="pt-16 px-4 max-w-4xl mx-auto">
 				{children}
 			</div>
 			<Footer />
