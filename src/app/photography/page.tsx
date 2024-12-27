@@ -17,11 +17,11 @@ export default function Photography() {
 	return (
 		<main className="space-y-4">
 			{/*Info Box*/}
+			<p className="text-justify">
+				I do photography for events, but I also do it for fun. This is a collection of those moments. Everything SooC.
+			</p>
 			<div>
-				<p className="text-justify">
-					I do photography for events, but I also do it for fun. This is a collection of those moments. Everything SooC.
-				</p>
-				<h1 className="text-xl font-bold mt-4">
+				<h1 className="text-xl font-bold">
 					Lenses I use:
 				</h1>
 				<ul className="list-disc pl-6">

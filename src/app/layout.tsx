@@ -18,14 +18,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children,}: Readonly<{children: React.ReactNode;}>) {
 	return (
-	<html lang="en">
-		<body className={`${atkinsonHyperlegible.className} m-0 p-0`}>
-			<Header />
-			<div className="pt-16 px-4 max-w-4xl mx-auto">
-				{children}
-			</div>
-			<Footer />
-		</body>
-	</html>
+		<html lang="en">
+			<body className={`${atkinsonHyperlegible.className} m-0 p-0`}>
+				<Header />
+				{/*Whitespace*/}
+				<div className="h-12"></div>
+				<div className="p-4 max-w-4xl mx-auto">
+					{children}
+				</div>
+				<Footer />
+			</body>
+		</html>
 	);
 }
