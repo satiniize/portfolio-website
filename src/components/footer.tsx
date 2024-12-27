@@ -17,10 +17,10 @@ export default function Footer() {
 	return (
 		<div className="text-center bg-black border-t border-white py-4">
 			<h1 className="text-xl font-bold">Contact me</h1>
-			<ContactLink title="Telegram" link="#" />
-			<ContactLink title="Email" link="#" />
-			<ContactLink title="LinkedIn" link="#" />
-			<ContactLink title="GitHub" link="#" />
+			<ContactLink title="Telegram" link="https://t.me/satiniize" />
+			<ContactLink title="Email" link="mailto:rayhansat1210@gmail.com" />
+			<ContactLink title="LinkedIn" link="https://id.linkedin.com/in/rayhan-satrio-adi-nurdjaman-143536263" />
+			<ContactLink title="GitHub" link="https://github.com/satiniize" />
 		</div>
 	);
 }
