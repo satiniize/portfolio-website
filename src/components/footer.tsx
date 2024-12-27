@@ -1,6 +1,6 @@
 import React from 'react';
 
-function ContactLink( {title, link, desc} ) {
+function ContactLink( {title, link} ) {
 	return (
 		<div>
 			<a href={link}>
@@ -16,11 +16,14 @@ function ContactLink( {title, link, desc} ) {
 export default function Footer() {
 	return (
 		<div className="text-center bg-black py-8">
+			<span>Built with pride and passion.</span>
 			<h1 className="text-xl font-bold">Contact me</h1>
-			<ContactLink title="Whatsapp" link="#" desc="For urgent matters" />
-			<ContactLink title="Email" link="#" desc="For important matters" />
-			<ContactLink title="GitHub" link="#" desc="For coding projects" />
-			<ContactLink title="Instagram" link="#" desc="For photography content" />
+			<ContactLink title="Whatsapp" link="#" />
+			<ContactLink title="Telegram" link="#" />
+			<ContactLink title="Email" link="#" />
+			<ContactLink title="LinkedIn" link="#" />
+			<ContactLink title="GitHub" link="#" />
+			<ContactLink title="Instagram" link="#" />
 		</div>
 	);
 }

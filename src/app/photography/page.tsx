@@ -2,16 +2,14 @@ import Image from 'next/image';
 
 function PhotoItem({ path }) {
 	return (
-		<div className="w-full">
-			<Image 
-				src={path}
-				alt="A photo"
-				layout="responsive"
-				width={3}
-				height={2}
-				className="rounded-3xl"
-			/>
-		</div>
+	<div className="w-full relative aspect-[3/2]">
+	  <Image
+	    src={path}
+	    alt="A photo"
+	    fill
+	    className="rounded-2xl object-cover"
+	  />
+	</div>
 	);
 }
 
@@ -21,7 +19,7 @@ export default function Photography() {
 			{/*Info Box*/}
 			<div className="m-4">
 				<p className="text-justify">
-				I do photography for events, but I also do it for fun. This is a collection of those moments. Everything SooC.
+					I do photography for events, but I also do it for fun. This is a collection of those moments. Everything SooC.
 				</p>
 				<h1 className="text-xl font-bold mt-4">
 					Lenses I use:
