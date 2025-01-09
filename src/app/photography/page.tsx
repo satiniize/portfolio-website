@@ -30,20 +30,34 @@ export default function Photography() {
 				</ul>
 			</div>
 			<div className="grid grid-cols-2 gap-4">
-				<PhotoItem path="/RYHN6822.JPG" />
-				<PhotoItem path="/RYHN6842.JPG" />
-				<PhotoItem path="/RYHN6848.JPG" />
-				<PhotoItem path="/RYHN7267.JPG" />
-				<PhotoItem path="/RYHN7296.JPG" />
-				<PhotoItem path="/RYHN7344.JPG" />
-				<PhotoItem path="/RYHN7361.JPG" />
-				<PhotoItem path="/RYHN7394.JPG" />
-				<PhotoItem path="/RYHN7403.JPG" />
-				<PhotoItem path="/RYHN7431.JPG" />
-				<PhotoItem path="/RYHN7441.JPG" />
-				<PhotoItem path="/RYHN7449.JPG" />
-				<PhotoItem path="/RYHN7560.JPG" />
-				<PhotoItem path="/RYHN7611.JPG" />
+				<PhotoItem path="/Photos/RYHN6822.JPG" />
+				<PhotoItem path="/Photos/RYHN6842.JPG" />
+				<PhotoItem path="/Photos/RYHN6848.JPG" />
+				<PhotoItem path="/Photos/RYHN7267.JPG" />
+				<PhotoItem path="/Photos/RYHN7296.JPG" />
+				<PhotoItem path="/Photos/RYHN7394.JPG" />
+				<PhotoItem path="/Photos/RYHN7403.JPG" />
+				<PhotoItem path="/Photos/RYHN7431.JPG" />
+				<PhotoItem path="/Photos/RYHN7441.JPG" />
+				<PhotoItem path="/Photos/RYHN7560.JPG" />
+				<PhotoItem path="/Photos/RYHN7611.JPG" />
+				<PhotoItem path="/Photos/RYHN7689.JPG" />
+				<PhotoItem path="/Photos/RYHN7708.JPG" />
+				<PhotoItem path="/Photos/RYHN7791.JPG" />
+				<PhotoItem path="/Photos/RYHN7849.JPG" />
+				<PhotoItem path="/Photos/RYHN7872.JPG" />
+				<PhotoItem path="/Photos/RYHN7875.JPG" />
+				<PhotoItem path="/Photos/RYHN7901.JPG" />
+				<PhotoItem path="/Photos/RYHN7967.JPG" />
+				<PhotoItem path="/Photos/RYHN8020.JPG" />
+				<PhotoItem path="/Photos/RYHN8050.JPG" />
+				<PhotoItem path="/Photos/RYHN8060.JPG" />
+				<PhotoItem path="/Photos/RYHN8094.JPG" />
+				<PhotoItem path="/Photos/RYHN8122.JPG" />
+				<PhotoItem path="/Photos/RYHN8148.JPG" />
+				<PhotoItem path="/Photos/RYHN8202.JPG" />
+				<PhotoItem path="/Photos/RYHN8236.JPG" />
+				<PhotoItem path="/Photos/RYHN8244.JPG" />
 			</div>
 		</main>
 	);
