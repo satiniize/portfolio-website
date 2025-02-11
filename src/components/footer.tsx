@@ -15,7 +15,8 @@ function ContactLink( {title, link} : {title: string; link: string} ) {
 
 export default function Footer() {
 	return (
-		<div className="text-center bg-black border-t border-white py-4">
+		<div className="text-center">
+			<hr className="my-4"></hr>
 			<h1 className="text-xl font-bold">Contact me</h1>
 			<ContactLink title="Telegram" link="https://t.me/satiniize" />
 			<ContactLink title="Email" link="mailto:rayhansat1210@gmail.com" />
