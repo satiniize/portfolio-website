@@ -22,14 +22,14 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
 		<html lang="en" className={atkinsonHyperlegible.className}>
 			<body>
 				<SidebarProvider>
-				  	<AppSidebar/>
-				  	<main className="p-4 w-full">
-				        <SidebarTrigger/>
-				        <div className="mx-auto max-w-4xl">
-				        	{children}
-			        	</div>
-				    	<Footer/>
-				    </main>
+					<AppSidebar/>
+					<main className="p-4 w-full">
+						<SidebarTrigger className="fixed bg-sidebar shadow border z-20"/>
+						<div className="mx-auto max-w-4xl">
+							{children}
+							<Footer/>
+						</div>
+					</main>
 				</SidebarProvider>
 			</body>
 		</html>

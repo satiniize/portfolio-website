@@ -2,14 +2,9 @@ import React from 'react';
 
 function ContactLink( {title, link} : {title: string; link: string} ) {
 	return (
-		<div>
-			<a href={link}>
+			<a href={link} className="block hover:underline">
 				{title} 
 			</a>
-{/*            <span>
-				 - {desc}
-			</span>*/}
-		</div>
 	);
 };
 
