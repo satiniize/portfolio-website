@@ -38,7 +38,7 @@ const items = [
 
 export function AppSidebar() {
   return (
-    <Sidebar className="transition-all duration-200 ease-in-out shadow">
+    <Sidebar className="transition-all duration-200 ease-in-out">
       <SidebarContent>
         <SidebarGroup className="p-0">
           <SidebarGroupLabel className="text-xs h-8">Built with pride and passion,</SidebarGroupLabel>
