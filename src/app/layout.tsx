@@ -22,8 +22,8 @@ export default function RootLayout({children,}: Readonly<{children: React.ReactN
 				<SidebarProvider>
 					<AppSidebar/>
 					<main className="p-4 w-full">
-						<SidebarTrigger className="fixed bg-sidebar shadow border z-20"/>
-						<div className="mx-auto mt-8 max-w-4xl">
+						<SidebarTrigger className="w-8 h-8 fixed bg-sidebar border shadow z-20"/>
+						<div className="mx-auto mt-12 max-w-4xl">
 							{children}
 						</div>
 					</main>

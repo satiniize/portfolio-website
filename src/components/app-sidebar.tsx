@@ -38,18 +38,18 @@ const items = [
 
 export function AppSidebar() {
   return (
-    <Sidebar className="transition-all duration-200 ease-in-out">
+    <Sidebar className="transition-all duration-200 ease-in-out shadow">
       <SidebarContent>
-        <SidebarGroup>
-          <SidebarGroupLabel>Built with pride and passion,</SidebarGroupLabel>
+        <SidebarGroup className="p-0">
+          <SidebarGroupLabel className="text-xs h-8">Built with pride and passion,</SidebarGroupLabel>
           <SidebarGroupContent>
-            <SidebarMenu>
+            <SidebarMenu className="gap-0">
               {items.map((item) => (
                 <SidebarMenuItem key={item.title}>
-                  <SidebarMenuButton asChild>
+                  <SidebarMenuButton asChild className="h-12 rounded-none gap-0 p-0">
                     <Link href={item.url}>
-                      <item.icon />
-                      <span>{item.title}</span>
+                      <item.icon className="m-4"/>
+                      <span className="text-base">{item.title}</span>
                     </Link>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
@@ -60,10 +60,10 @@ export function AppSidebar() {
         <hr className="mt-auto mx-4"></hr>
         <SidebarGroup className="p-4">
           <h1 className="text-xl font-bold">Contact me</h1>
-          <Link href="#">Telegram</Link>
-          <Link href="#">Email</Link>
-          <Link href="#">LinkedIn</Link>
-          <Link href="#">GitHub</Link>
+          <Link href="https://t.me/satiniize" className="block hover:underline">Telegram</Link>
+          <Link href="mailto:rayhansat1210@gmail.com" className="block hover:underline">Email</Link>
+          <Link href="https://www.linkedin.com/in/rayhan-nurdjaman/" className="block hover:underline">LinkedIn</Link>
+          <Link href="https://github.com/satiniize" className="block hover:underline">GitHub</Link>
         </SidebarGroup>
       </SidebarContent>
     </Sidebar>

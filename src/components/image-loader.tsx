@@ -17,7 +17,7 @@ export default function ImageLoader({ path }: { path: string }) {
         alt="Sample Image"
         width={500}
         height={300}
-        onLoadingComplete={handleImageLoad}
+        onLoad={handleImageLoad}
         className={`rounded-2xl object-cover transition-opacity duration-200 ease-in-out ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
       />
     </div>
