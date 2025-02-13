@@ -2,7 +2,7 @@ import React from 'react';
 
 function ContactLink( {title, link} : {title: string; link: string} ) {
 	return (
-			<a href={link} className="block hover:underline">
+			<a href={link} className="block w-fit m-auto hover:underline">
 				{title} 
 			</a>
 	);

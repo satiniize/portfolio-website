@@ -11,7 +11,7 @@ export default function ImageLoader({ path }: { path: string }) {
   };
 
   return (
-    <div className="rounded-2xl w-full relative aspect-[3/2]"> {/* Adjust width and height as needed */}
+    <div className="rounded-2xl w-full relative aspect-[3/2] bg-sidebar bg-border shadow"> {/* Adjust width and height as needed */}
       <Image
         src={path}
         alt="Sample Image"

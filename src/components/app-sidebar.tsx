@@ -38,7 +38,7 @@ const items = [
 
 export function AppSidebar() {
   return (
-    <Sidebar className="transition-all duration-200 ease-in-out" variant="floating">
+    <Sidebar className="transition-all duration-200 ease-in-out">
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel>Built with pride and passion,</SidebarGroupLabel>
@@ -56,6 +56,14 @@ export function AppSidebar() {
               ))}
             </SidebarMenu>
           </SidebarGroupContent>
+        </SidebarGroup>
+        <hr className="mt-auto mx-4"></hr>
+        <SidebarGroup className="p-4">
+          <h1 className="text-xl font-bold">Contact me</h1>
+          <Link href="#">Telegram</Link>
+          <Link href="#">Email</Link>
+          <Link href="#">LinkedIn</Link>
+          <Link href="#">GitHub</Link>
         </SidebarGroup>
       </SidebarContent>
     </Sidebar>
