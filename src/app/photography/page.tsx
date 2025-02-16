@@ -47,7 +47,7 @@ export default function Photography() {
 					<li>XF18-55mm f/2.8-f/4</li>
 				</ul>
 			</div>
-			<div className="grid grid-cols-2 gap-2">
+			<div className="grid grid-cols-2 gap-2 mt-4">
 				{photos.map((path, index) => (<ImageLoader key={index} path={path}/>))}
 			</div>
 		</ContentWrapper>

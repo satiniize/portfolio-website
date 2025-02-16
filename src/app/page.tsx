@@ -3,13 +3,12 @@ import ContentWrapper from '@/components/content-wrapper'
 export default function Home() {
 	return (
 		<ContentWrapper>
-			<h1 className="text-2xl font-bold">Rayhan Satrio Adi Nurdjaman</h1>
+			<h1 className="text-4xl font-bold mb-4">Rayhan Satrio Adi Nurdjaman</h1>
 			<p className="text-justify">
-				A Mechanical Engineering student at the National University of Singapore, fully funded by the Beasiswa Indonesia Maju scholarship for my achievements in national physics competitions.
+				I&apos;m a mechanical engineering student at the National University of Singapore who also likes to do software stuff.
 			</p>
-			<p className="text-justify">
-				 Aside from academics, I’ve also led the mechanical subteam for Hornet X, managed design and publicity for community initiatives, and developed a skills from CAD and 3D modeling to Python and C++.
-			</p>
+			<p>I&apos;m familiar with SolidWorks, Autodesk Fusion, and FreeCAD.</p>
+			<p>For software projects, I have experience in Python, C++, and Typescript.</p>
 		</ContentWrapper>
 	);
 }

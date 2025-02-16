@@ -11,14 +11,13 @@ export default function ImageLoader({ path }: { path: string }) {
   };
 
   return (
-    <div className="rounded-2xl w-full relative aspect-[3/2] bg-sidebar bg-border shadow"> {/* Adjust width and height as needed */}
+    <div className="w-full relative aspect-[3/2] bg-sidebar bg-border shadow"> {/* Adjust width and height as needed */}
       <Image
         src={path}
         alt="Sample Image"
-        width={500}
-        height={300}
+        fill={true}
         onLoad={handleImageLoad}
-        className={`rounded-2xl object-cover transition-opacity duration-200 ease-in-out ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
+        className={`object-cover transition-opacity duration-200 ease-in-out ${isLoaded ? 'opacity-100' : 'opacity-0'}`}
       />
     </div>
   );

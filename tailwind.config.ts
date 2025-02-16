@@ -3,16 +3,13 @@ import type { Config } from "tailwindcss";
 export default {
     darkMode: ["class"],
     content: [
-        "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-        "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-        "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+        './src/**/*.{js,ts,jsx,tsx,mdx}',
     ],
     theme: {
     	extend: {
     		colors: {
     			background: 'hsl(var(--background))',
     			foreground: 'hsl(var(--foreground))',
-    			customPurple: '#1E40AF',
     			card: {
     				DEFAULT: 'hsl(var(--card))',
     				foreground: 'hsl(var(--card-foreground))'
@@ -67,16 +64,27 @@ export default {
     			md: 'calc(var(--radius) - 2px)',
     			sm: 'calc(var(--radius) - 4px)'
     		},
-            keyframes: {
-                fadeIn: {
-                    '0%': { opacity: '0', filter: 'blur(4px)' },
-                    '100%': { opacity: '1', filter: 'blur(0)' },
+    		keyframes: {
+    			fadeIn: {
+    				'0%': {
+    					opacity: '0',
+    					filter: 'blur(4px)'
+    				},
+    				'100%': {
+    					opacity: '1',
+    					filter: 'blur(0)'
+    				}
+    			},
+                scroll: {
+                    '0%': { backgroundPosition: '0 0' },
+                    '100%': { backgroundPosition: '100% 0' },
                 },
-            },
-            animation: {
-                fadeIn: 'fadeIn .2s ease-in-out forwards',
-            },
-        }
+    		},
+    		animation: {
+    			fadeIn: 'fadeIn .2s ease-in-out forwards',
+                scroll: 'scroll 32s linear infinite',
+    		}
+    	}
     },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
